@@ -13,9 +13,9 @@ tax = 0.65
 utility = (sale_price * users - expenses)
 
 puts " ----------------------------"
-puts "|Precio de venta = #{sale_price}.       |"
-puts "|Cantidad de usuarios = #{users}.|"
-puts "|Gastos = #{expenses}.             |"
+puts "Precio de venta = #{sale_price}."
+puts "Cantidad de usuarios = #{users}."
+puts "Gastos = #{expenses}."
 puts " ----------------------------"
 
 if utility > 0
