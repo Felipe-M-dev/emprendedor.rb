@@ -20,6 +20,8 @@ puts " ----------------------------"
 
 if utility > 0
   puts "Las utilidades son de: #{utility*tax}"
+  puts " ----------------------------"
 else
   puts "Las utilidades son de: #{utility}"
+  puts " ----------------------------"
 end
